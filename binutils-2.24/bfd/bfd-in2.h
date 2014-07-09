@@ -2237,6 +2237,8 @@ enum bfd_architecture
 #define bfd_mach_aarch64_ilp32 32
   bfd_arch_nios2,
 #define bfd_mach_nios2 0
+  bfd_arch_upu,
+#define bfd_mach_upu 1
   bfd_arch_last
   };
 

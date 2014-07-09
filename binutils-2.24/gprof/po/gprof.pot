@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
-"POT-Creation-Date: 2011-10-18 14:20+0100\n"
+"POT-Creation-Date: 2014-06-18 22:02+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -121,7 +121,7 @@ msgid ""
 "\n"
 msgstr ""
 
-#: cg_print.c:80 hist.c:468
+#: cg_print.c:80 hist.c:471
 #, c-format
 msgid ""
 "\n"
@@ -171,7 +171,7 @@ msgstr ""
 msgid "descendants"
 msgstr ""
 
-#: cg_print.c:103 hist.c:494
+#: cg_print.c:103 hist.c:497
 msgid "name"
 msgstr ""
 
@@ -211,47 +211,47 @@ msgstr ""
 msgid "<cycle %d>"
 msgstr ""
 
-#: corefile.c:61
+#: corefile.c:62
 #, c-format
 msgid "%s: unable to parse mapping file %s.\n"
 msgstr ""
 
-#: corefile.c:85 corefile.c:514
+#: corefile.c:86 corefile.c:525
 #, c-format
 msgid "%s: could not open %s.\n"
 msgstr ""
 
-#: corefile.c:185
+#: corefile.c:186
 #, c-format
 msgid "%s: %s: not in executable format\n"
 msgstr ""
 
-#: corefile.c:196
+#: corefile.c:197
 #, c-format
 msgid "%s: can't find .text section in %s\n"
 msgstr ""
 
-#: corefile.c:271
+#: corefile.c:272
 #, c-format
 msgid "%s: ran out room for %lu bytes of text space\n"
 msgstr ""
 
-#: corefile.c:285
+#: corefile.c:286
 #, c-format
 msgid "%s: can't do -c\n"
 msgstr ""
 
-#: corefile.c:324
+#: corefile.c:329
 #, c-format
 msgid "%s: -c not supported on architecture %s\n"
 msgstr ""
 
-#: corefile.c:523 corefile.c:622
+#: corefile.c:534 corefile.c:637
 #, c-format
 msgid "%s: file `%s' has no symbols\n"
 msgstr ""
 
-#: corefile.c:884
+#: corefile.c:904
 #, c-format
 msgid "%s: somebody miscounted: ltab.len=%d instead of %ld\n"
 msgstr ""
@@ -455,53 +455,53 @@ msgstr ""
 msgid "%s: %s: unexpected EOF after reading %u of %u samples\n"
 msgstr ""
 
-#: hist.c:464
+#: hist.c:467
 #, c-format
 msgid "%c%c/call"
 msgstr ""
 
-#: hist.c:472
+#: hist.c:475
 #, c-format
 msgid ""
 " for %.2f%% of %.2f %s\n"
 "\n"
 msgstr ""
 
-#: hist.c:478
+#: hist.c:481
 #, c-format
 msgid ""
 "\n"
 "Each sample counts as %g %s.\n"
 msgstr ""
 
-#: hist.c:483
+#: hist.c:486
 #, c-format
 msgid ""
 " no time accumulated\n"
 "\n"
 msgstr ""
 
-#: hist.c:490
+#: hist.c:493
 msgid "cumulative"
 msgstr ""
 
-#: hist.c:490
+#: hist.c:493
 msgid "self  "
 msgstr ""
 
-#: hist.c:490
+#: hist.c:493
 msgid "total "
 msgstr ""
 
-#: hist.c:493
+#: hist.c:496
 msgid "time"
 msgstr ""
 
-#: hist.c:493
+#: hist.c:496
 msgid "calls"
 msgstr ""
 
-#: hist.c:582
+#: hist.c:585
 #, c-format
 msgid ""
 "\n"
@@ -510,12 +510,12 @@ msgid ""
 "flat profile:\n"
 msgstr ""
 
-#: hist.c:588
+#: hist.c:591
 #, c-format
 msgid "Flat profile:\n"
 msgstr ""
 
-#: hist.c:709
+#: hist.c:712
 #, c-format
 msgid "%s: found a symbol that covers several histogram records"
 msgstr ""

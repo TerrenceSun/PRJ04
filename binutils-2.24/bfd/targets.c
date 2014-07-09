@@ -917,6 +917,8 @@ extern const bfd_target ptrace_core_vec;
 extern const bfd_target sco5_core_vec;
 extern const bfd_target trad_core_vec;
 
+extern const bfd_target bfd_elf32_upu_vec;
+
 extern const bfd_target bfd_elf32_am33lin_vec;
 static const bfd_target * const _bfd_target_vector[] =
 {

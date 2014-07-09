@@ -482,6 +482,8 @@ DESCRIPTION
 .#define bfd_mach_aarch64_ilp32	32
 .  bfd_arch_nios2,
 .#define bfd_mach_nios2	0
+.  bfd_arch_upu,
+.#define bfd_mach_upu 1
 .  bfd_arch_last
 .  };
 */
@@ -609,6 +611,8 @@ extern const bfd_arch_info_type bfd_xc16x_arch;
 extern const bfd_arch_info_type bfd_xgate_arch;
 extern const bfd_arch_info_type bfd_z80_arch;
 extern const bfd_arch_info_type bfd_z8k_arch;
+
+extern const bfd_arch_info_type bfd_upu_arch;
 
 static const bfd_arch_info_type * const bfd_archures_list[] =
   {

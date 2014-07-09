@@ -436,6 +436,8 @@ microblazeel*)		targ_emul=elf32microblazeel
 microblaze*)		targ_emul=elf32microblaze
 			targ_extra_emuls=elf32microblazeel
 			;;
+upu*)   targ_emul=elf32upu
+            ;;
 mips*-sgi-irix5*)	targ_emul=elf32bsmip ;;
 mips*-sgi-irix6*)	targ_emul=elf32bmipn32
 	                targ_extra_emuls="elf32bsmip elf64bmip"

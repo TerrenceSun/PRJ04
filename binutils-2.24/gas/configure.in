@@ -163,6 +163,8 @@ for this_target in $target $canon_targets ; do
 
       microblaze*)
         ;;
+      upu*)
+        ;;
 
 changequote(,)dnl
       ppc-*-aix[5-9].*)
